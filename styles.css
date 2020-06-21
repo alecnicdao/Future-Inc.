@@ -1,0 +1,144 @@
+/* Base Styles -FROM LANDING PAGE */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+    background-image: linear-gradient(to bottom right, rgb(63, 175, 91), rgb(9, 71, 30));
+    text-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+.side {
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+.about {
+    max-width: 26rem;
+}
+
+/* Shared Styles -FROM LANDING PAGE */
+.wallpaper, .picture-shadow, .picture-image {
+    display: block; 
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+section.container {
+    padding: 3em;
+}
+
+/* Specific Styles -FROM LANDING PAGE- */
+.wallpaper {
+    background-image: url("../images/futureOne.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2;
+    position: fixed;
+}
+
+#job {
+    color: white;
+    text-transform: uppercase;
+}
+
+.hr {
+    background-color: rgb(226, 241, 10);
+    border: none;
+    content: "";
+    height: 1px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    transform-origin: center left;
+    width: 4rem;
+}
+
+.hero-foot {
+    z-index: 4;
+}
+
+.email {
+    padding-top: 1em;
+}
+
+#email:hover, #email:active {
+    background-color: rgb(168, 165, 172);
+}
+
+.navbar-burger.burger {
+    color: rgb(197, 216, 210);
+}
+
+.social li {
+    height: 2rem;
+    margin-right: 0.5rem;
+    text-align: center;
+    width: 2rem;
+}
+
+.social a {
+    color: black;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.social a:hover, .social a:active {
+    transform: scale(1.25);
+    color: rgb(127, 91, 161);
+}
+
+.attribution a{
+    color: rgb(3, 3, 3);
+}
+
+.attribution a:hover, .attribution a:active {
+    color:  rgb(28, 209, 28);
+}
+
+.footer {
+    background-color: rgb(84, 75, 87);
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    z-index: 4;
+}
+
+.social {
+    z-index: 5;
+}
+
+/* Responsive Design -FROM LANDING PAGE- */
+@media screen and (max-width: 1023px) {
+    .hero-body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 3rem;
+    }
+
+    .side {
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-body {
+        align-items: center;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        padding: 4rem;
+    }
+
+    .side {
+        height: 20rem;
+        margin-left: 4rem;
+        order: 2;
+        width: 20rem;
+    }
+
+    .container.about {
+        margin: 0;
+    }
+}

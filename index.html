@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Future Inc.</title>
+	<!--<link rel="stylesheet" href="css/debug.css">-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+	<div class="wallpaper"></div>
+	<div class="hero is-success is-fullheight">
+
+		<!-- Hero head: will stick at the top -->
+		<div class="hero-head">
+			<header class="navbar">
+				<div class="container">
+					<div class="navbar-brand">
+						<a class="navbar-item">
+							<img src="images/futureInc.png" alt="Logo">
+						</a>
+
+						<span class="navbar-burger burger" data-target="navbarMenuHeroC">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+					</div>
+					<div id="navbarMenuHeroC" class="navbar-menu">
+						<div class="navbar-end">
+							<a class="navbar-item is-active">Home</a>
+							<a href="#mywork" class="navbar-item">My Work</a>
+							<a href="#contactme" class="navbar-item">Contact</a>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+
+		<!-- Hero content: will be in the middle -->
+		<div class="hero-body">
+			<div class="side">
+				<figure class="image is-rounded" id="picture">
+					<div class="picture-shadow"></div>
+					<img src="images/Alec1x.jpg" alt="Picture of Alastair Nicdao" class="image is-rounded" width="320px"
+						height="320px" srcset="images/Alec1x.jpg 1x, images/Alec2x.jpg 2x, 
+				    images/Alec3x.jpg 3x" id="pictureImage">
+				</figure>
+			</div>
+			<div class="container about">
+				<div class="container">
+					<h1 class="title is-2">Hi, I'm Alastair Nicdao</h1>
+					<p class="subtitle is-5" id="job">IT Specialist & Front End Developer</p>
+				</div>
+
+				<hr class="hr">
+				<div class="container">
+					<p class="subtitle is-4">A student and employee at Weber State University</p>
+				</div>
+				<div class="email">
+					<a href="mailto:alecnicdao@gmail.com" class="button is-warning is-inverted is-rounded" id="personal-email">Contact Me</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Hero footer: will stick at the bottom -->
+		<div class="hero-foot">
+			<div class="level">
+				<div class="level-item attribution">
+					<p>Wallpaper Credit: <a href="https://unsplash.com/photos/kBUfvkbFIoE">Douglas Sanchez @updoug</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main-content">
+		<section class="container">
+			<h2 class="title" id="mywork">My Work</h2>
+
+			<div class="tile is-ancestor">
+				<div class="tile is-vertical is-9">
+					<div class="tile">
+
+						<div class="tile is-parent is-vertical">
+							<article class="tile is-child notification is-success">
+								<p class="title">Intro to Java</p>
+								<p class="subtitle">CS 1400 Projects</p>
+								<div class="content">
+									<p>
+										These are all the projects I did with professor Spencer Hilton. 
+									<p>
+										If interested to look at the projects here is a link to it: <a
+										href="https://github.com/alecnicdao/Java">Intro to Programming</a>.
+									</p>
+								</div>
+							</article>
+
+							<article class="tile is-child notification is-warning">
+								<p class="title">Intro to SQL</p>
+								<p class="subtitle">CS 2550 Projects</p>
+								<div class="content">
+									<p>
+										These are all the projects I did with professor Scott Sonderegger. 
+									<p>
+										If interested to look at the projects here is a link to it: <a
+										href="https://github.com/alecnicdao/SQL-oracle-database-">CS 2550</a>.
+									</p>
+							</article>
+
+							<article class="tile is-child notification is-primary">
+								<p class="title">Scripting Languages</p>
+								<p class="subtitle">CS 3030</p>
+								<div class="content">
+									<p>
+										This is my first project I did in this course Ted Cowan. 
+									<p>
+										If interested to look at the project here is a link to it: <a
+										href="https://github.com/cowancs3030fall19/lab1-alecnicdao">CS 3030</a>.
+									</p>
+							</article>
+						</div>
+
+						<article class="tile is-child notification is-dark">
+							<p class="title">Babysitting Website</p>
+								<p class="subtitle">WEB 2500</p>
+								<p>
+									As part of WEB 2500 (User Experience Design) course I took in Fall of 2019. We were introduced to the four-step User
+									Experience design process which includes user research, design, testing, and implementation. The following
+									topics were covered in the course: history of user experience, user behavior, cognitive processing, personas,
+									web analytics, content stratedy, information architecture, wrting for the web, user-centered design, usability
+									testing, and accessibiilty. Professor Sara Lleverino then had us design a website. The website must sell a product 
+									or provide a service. In this case I chose to design a babysitting website. The reason for this was babysitting helps
+									with peoples personal development. For instance, patience, problem-solving, communication nd relationship building,
+									mulititasking, creative skills, and more. Also a reason is because everyone nowadays is looking for a babysitter, but 
+									people struggle on finding the right one and how to find the right one and this site does that.
+								</p>
+
+								<div class="content has-text-centered">
+									<a class="button is-warning is-rounded"
+										href="https://anbabysittingservice.000webhostapp.com/">Launch</a>
+								</div>
+						</article>
+
+						<div class="tile is-parent is-vertical">
+							<article class="tile is-child notification is-success">
+								<p class="title">Future Project Idea #1</p>
+								<p class="subtitle">By Alastair Nicdao</p>
+								<p>
+									I haven't really thought about how I would do this. But 
+									I was thinking of wanting to build an app for the elderly people. We all 
+									know they aren't tech savvy at all so I was thinking about building something 
+									that is easy and that can keep them occupied. Especially elderly people that 
+									feel miserable in those assisted living homes.
+								</p>
+							</article>
+
+							<article class="tile is-child notification is-primary">
+								<p class="title">Future Project Idea #2</p>
+								<p class="subtitle">By Alastair Nicdao</p>
+								<p>
+									For many years now I have been thinking about what is going to be the next big
+									thing as far as social media. We have Instagram, Twitter, Snapchat, Facebook, 
+									and now TikTok is making it's way up there. I have some ideas I want to do/build 
+									as far as for the next social media app to use.
+								</p>
+							</article>
+							
+						</div>
+					</div>
+
+					<div class="tile is-parent">
+						<article class="tile is-child notification is-danger">
+							<p class="title">Rock, Paper, Scissors</p>
+							<p class="subtitle">WEB 2630 (VUE)</p>
+							<div class="content has-text-centered">
+								<img src="images/rps.JPG" alt="">
+							</div>
+
+							<div class="content">
+								<p>
+									As part of WEB 2630 course I took in Fall of 2019, Professor Cody Squadroni had
+									us design a rock, paper, scissors game using Vue.
+								<p>
+									If interested to look at more here is a link to it: <a
+										href="https://github.com/alecnicdao/RPS">Rock, Paper, Scisors using VUE.js</a>.
+								</p>
+							</div>
+						</article>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child notification is-primary">
+							<p class="title">LIVE'</p>
+							<p class="subtitle">An app for your highlights</p>
+							<div class="content has-text-centered">
+								<img src="images/firstApp.JPG" alt="">
+							</div>
+
+							<div class="content">
+								<p>
+									This is the first app I am currently working on. LIVE' is an app for athletes/scouts all over the world. 
+									Specifically, for atheletes from cities that aren't known for sports. What the app does is 
+									you are able to post all of your highlight videos whether they are from the school you play for 
+									or just a team you play for. The reason I wanted to design an app like this is for young athletes
+									that want to pursue a career in the sport they play whether that's in basketball, football, soccer, 
+									baseball, you name it.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<div class="tile is-parent is-vertical">
+					<article class="tile is-child notification is-dark">
+						<div class="content">
+							<p class="title">WEB DEV</p>
+							<p class="subtitle">CS 2350 Web Project</p>
+							<div class="content has-text-centered">
+								<img src="images/futureTwo.jpg" alt="">
+							</div>
+
+							<div class="content">
+								<p>
+									As part of CS 2350 course I took in Spring of 2019 with Linda Duhadway we developed a webpage portfolio. 
+									Throughout the course we had to add to the webpage as we learned more about web development. 
+									We first learned about the basics of HTML. For example, how to publish onto the web. Then we learned how to 
+									do CSS (adding common style, header, navigation, etc.) Then, we did some JavaScript. For instance,
+									how to add event listeners, how to create a form, and how to handle events on form elements. Lastly,
+									we touched a little on jQuery. jQuery is a lightweight, "write less, do more", JavaScript library. The 
+									reason for us using it was to make it much easier to use JavaScript on your website. As for my website I 
+									talked about sports a lot, specifically basketball.
+								</p>
+							</div>
+
+							<div class="content has-text-centered">
+								<a class="button is-warning is-large"
+									href="http://icarus.cs.weber.edu/~an57205/hw/hw/index.html">Launch</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="tile is-child notification is-dark">
+						<div class="content">
+							<p class="title">Serving Love Foundation</p>
+							<p class="subtitle">First Web Project</p>
+							<div class="content has-text-centered">
+								<img src="images/servingLove.JPG" alt="" width="300">
+							</div>
+
+							<div class="content">
+								<p>
+									My first web development project outside of school was for the Serving Love
+									Foundation (non-profit organization). The foundation/website was built for a retired professional 
+									tennis player named Melvin Peterson in 2019. How I heard about the foundation was through my cousin
+									Markus Williams him and Melvin go way back. So Markus connected me with him and we
+									just went from there. There still needs a lot of work to do on the site, but once
+									the foundation launches in summer of 2020 we will have more on the site. For instance,
+									what we want to do as far as the foundation and how we can design our website differently
+									to improve it. That includes, news, events, videos, contact information, accomplishments,
+									and more.
+								</p>
+							</div>
+
+							<div class="content has-text-centered">
+								<a class="button is-warning is-large" href="http://servinglovefoundation.org">Launch</a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="container">
+			<h2 class="title" id="contactme">Contact Me</h2>
+			<form action="">
+				<div class="field is-horizontal">
+					<div class="field-body">
+						<div class="field">
+							<p class="control has-icons-left">
+								<input class="input" type="text" placeholder="Name">
+								<span class="icon is-small is-left">
+									<i class="fas fa-user"></i>
+								</span>
+							</p>
+						</div>
+						<div class="field">
+							<p class="control has-icons-left has-icons-right">
+								<input class="input" type="email" placeholder="Email">
+								<span class="icon is-small is-left">
+									<i class="fas fa-envelope"></i>
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="field">
+					<label class="label">Message</label>
+					<div class="control">
+						<textarea class="textarea" placeholder="Your message here"></textarea>
+					</div>
+				</div>
+
+				<div class="field">
+					<div class="control">
+						<button class="button is-primary">Send Message</button>
+					</div>
+				</div>
+			</form>
+		</section>
+	</div>
+
+	<footer class="footer">
+		<div class="level">
+			<div class="level-item social">
+				<span class="icon is-large is-link">
+					<a href="https://www.linkedin.com/in/alastair-nicdao-90a863124/"><i class="fab fa-linkedin"></i></i></a>
+				</span>
+
+				<span class="icon is-large is-link">
+					<a href="https://github.com/alecnicdao"><i class="fab fa-github-square"></i></i></i></a>
+				</span>
+			</div>
+
+			<div class="level-item">
+				<p class="is-bold">&copy; Copyright 2020 Alastair Nicdao</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
